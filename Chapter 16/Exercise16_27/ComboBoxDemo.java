@@ -69,11 +69,11 @@ public class ComboBoxDemo extends Application {
 		
 		java.io.File file7 = new java.io.File("Description7.txt");
 		input = new Scanner(file7);
-		flagDescription[7] = " ... ";
+		flagDescription[7] = input.nextLine();
 		
 		java.io.File file8 = new java.io.File("Description8.txt");
 		input = new Scanner(file8);
-		flagDescription[8] = " ... ";
+		flagDescription[8] = input.nextLine();
 
 		// Set the first country (Canada) for display
 		setDisplay(0);
